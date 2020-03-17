@@ -1,0 +1,6 @@
+.table.invoice > tbody > tr > td {
+  border-top: 0; }
+.table.invoice > thead > tr > th, .table.invoice > tfoot > tr > th {
+  border-bottom: 0 !important; }
+
+/*# sourceMappingURL=style_Invoice.css.map */

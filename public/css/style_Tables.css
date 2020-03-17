@@ -1,0 +1,146 @@
+.table-responsive {
+  border: none; }
+  .table-responsive .table, .table-responsive .jsgrid-table {
+    border-color: rgba(33, 33, 33, 0.1) !important; }
+  .table-responsive .table > thead:first-child > tr:first-child > th {
+    border-top: 0; }
+  .table-responsive .table > thead > tr > th,
+  .table-responsive .jsgrid-table > thead > tr > th,
+  .table-responsive .table > tfoot > tr > th,
+  .table-responsive .jsgrid-table > tfoot > tr > th {
+    border-bottom: 2px solid rgba(33, 33, 33, 0.1) !important;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase; }
+  .table-responsive .table > tbody > tr > td,
+  .table-responsive .jsgrid-table > tbody > tr > td,
+  .table-responsive .table > tbody > tr > th,
+  .table-responsive .jsgrid-table > tbody > tr > th,
+  .table-responsive .table > tfoot > tr > td,
+  .table-responsive .jsgrid-table > tfoot > tr > td,
+  .table-responsive .table > tfoot > tr > th,
+  .table-responsive .jsgrid-table > tfoot > tr > th,
+  .table-responsive .table > thead > tr > td,
+  .table-responsive .jsgrid-table > thead > tr > td,
+  .table-responsive .table > thead > tr > th,
+  .table-responsive .jsgrid-table > thead > tr > th {
+    padding: 16px;
+    border-top: 1px solid rgba(33, 33, 33, 0.1);
+    vertical-align: middle; }
+  .table-responsive .table > tbody > tr > td,
+  .table-responsive .jsgrid-table > tbody > tr > td {
+    color: #878787;
+    font-size: 14px; }
+  .table-responsive .table > tbody > tr.active > td,
+  .table-responsive .table > tbody > tr.active > th {
+    background: rgba(220, 220, 220, 0.08); }
+  .table-responsive .table > tbody > tr.success > td,
+  .table-responsive .table > tbody > tr.success > th {
+    background: rgba(9, 162, 117, 0.08); }
+  .table-responsive .table > tbody > tr.info > td,
+  .table-responsive .table > tbody > tr.info > th {
+    background: rgba(177, 0, 88, 0.08); }
+  .table-responsive .table > tbody > tr.warning > td,
+  .table-responsive .table > tbody > tr.warning > th {
+    background: rgba(242, 183, 1, 0.08); }
+  .table-responsive .table > tbody > tr.danger > td,
+  .table-responsive .table > tbody > tr.danger > th {
+    background: rgba(220, 0, 48, 0.08); }
+  .table-responsive .table-bordered {
+    border: 1px solid rgba(33, 33, 33, 0.1); }
+
+.bootstrap-table .fixed-table-container .table thead th .th-inner,
+.bootstrap-table .fixed-table-container .table th,
+.bootstrap-table .fixed-table-container .table td {
+  padding: 8px; }
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_info {
+  padding-left: 15px; }
+.dataTables_wrapper .dataTables_filter input, .dataTables_wrapper .dataTables_length select {
+  height: 25px;
+  border: 1px solid rgba(33, 33, 33, 0.12);
+  border-radius: 0;
+  background-color: #fff;
+  box-shadow: none;
+  color: #212121; }
+.dataTables_wrapper .dataTables_filter {
+  padding-right: 15px; }
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter {
+  padding-top: 20px;
+  margin-bottom: 14px;
+  color: #878787; }
+.dataTables_wrapper table.dataTable > caption + thead > tr:first-child > td,
+.dataTables_wrapper table.dataTable > caption + thead > tr:first-child > th,
+.dataTables_wrapper table.dataTable > colgroup + thead > tr:first-child > td,
+.dataTables_wrapper .table > colgroup + thead > tr:first-child > th,
+.dataTables_wrapper .jsgrid-table > colgroup + thead > tr:first-child > th,
+.dataTables_wrapper table.dataTable > thead:first-child > tr:first-child > td,
+.dataTables_wrapper table.dataTable > thead:first-child > tr:first-child > th {
+  border-left: medium none !important; }
+.dataTables_wrapper table.dataTable > tfoot > tr > th {
+  border-bottom: 0 solid rgba(33, 33, 33, 0.1) !important;
+  border-left: medium none !important;
+  color: #212121;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase; }
+.dataTables_wrapper table.dataTable.row-border tbody th,
+.dataTables_wrapper table.dataTable.row-border tbody td,
+.dataTables_wrapper table.dataTable.display tbody th,
+.dataTables_wrapper table.dataTable.display tbody td {
+  border-color: rgba(33, 33, 33, 0.1);
+  border-left: none;
+  border-bottom: none; }
+.dataTables_wrapper table.dataTable.order-column tbody tr > .sorting_1,
+.dataTables_wrapper table.dataTable.order-column tbody tr > .sorting_2,
+.dataTables_wrapper table.dataTable.order-column tbody tr > .sorting_3,
+.dataTables_wrapper table.dataTable.display tbody tr > .sorting_1,
+.dataTables_wrapper table.dataTable.display tbody tr > .sorting_2,
+.dataTables_wrapper table.dataTable.display tbody tr > .sorting_3,
+.dataTables_wrapper table.dataTable.display tbody tr.odd > .sorting_1,
+.dataTables_wrapper table.dataTable.order-column.stripe tbody tr.odd > .sorting_1,
+.dataTables_wrapper table.dataTable.stripe tbody tr.odd,
+.dataTables_wrapper table.dataTable.display tbody tr.odd,
+.dataTables_wrapper table.dataTable.hover tbody tr:hover,
+.dataTables_wrapper table.dataTable.display tbody tr:hover {
+  background-color: inherit; }
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_processing,
+.dataTables_wrapper .dataTables_paginate {
+  color: #212121; }
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:active,
+.dataTables_wrapper .dataTables_paginate .paginate_button:focus {
+  background: #09a275;
+  border-color: #09a275;
+  color: #fff !important;
+  box-shadow: none; }
+.dataTables_wrapper table.dataTable.no-footer {
+  border: none; }
+
+.footable .form-inline {
+  display: block; }
+  .footable .form-inline .form-group {
+    float: right; }
+    .footable .form-inline .form-group input {
+      height: 42px;
+      border-radius: 0; }
+    .footable .form-inline .form-group .btn {
+      margin: 0;
+      border-radius: 0; }
+.footable .btn-group, .footable .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle; }
+.footable .btn-group-xs > .btn, .footable .btn-xs {
+  padding: 1px 2px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px; }
+
+/*# sourceMappingURL=style_Tables.css.map */

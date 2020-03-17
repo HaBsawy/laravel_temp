@@ -1,0 +1,13 @@
+
+
+.table.invoice {
+    
+    & > tbody > tr > td {
+        border-top: 0
+    }
+    
+    & > thead > tr > th, 
+    & > tfoot > tr > th {
+        border-bottom: 0 !important;
+    }
+}

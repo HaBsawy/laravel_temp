@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAII,gCAAoB;EAChB,UAAU,EAAE,CAAC;AAGjB,kEACoB;EAChB,aAAa,EAAE,YAAY",
+"sources": ["style_Invoice.scss"],
+"names": [],
+"file": "style_Invoice.css"
+}
